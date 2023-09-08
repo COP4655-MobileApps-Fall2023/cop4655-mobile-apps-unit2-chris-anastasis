@@ -18,6 +18,7 @@
 		3AB3E6E92AAB8F2700E15826 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3AB3E6E82AAB8F2700E15826 /* NukeUI */; };
 		3AB3E6EB2AAB8F2700E15826 /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 3AB3E6EA2AAB8F2700E15826 /* NukeVideo */; };
 		3AB3E6ED2AAB8FC900E15826 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3E6EC2AAB8FC900E15826 /* Movie.swift */; };
+		3AB3E6EF2AABBA3500E15826 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3E6EE2AABBA3500E15826 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3AB3E6DB2AAB8B0D00E15826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AB3E6DD2AAB8B0D00E15826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AB3E6EC2AAB8FC900E15826 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		3AB3E6EE2AABBA3500E15826 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				3AB3E6CF2AAB8B0C00E15826 /* AppDelegate.swift */,
 				3AB3E6D12AAB8B0C00E15826 /* SceneDelegate.swift */,
 				3AB3E6D32AAB8B0C00E15826 /* MoviesViewController.swift */,
+				3AB3E6EE2AABBA3500E15826 /* MovieCell.swift */,
 				3AB3E6EC2AAB8FC900E15826 /* Movie.swift */,
 				3AB3E6D52AAB8B0C00E15826 /* Main.storyboard */,
 				3AB3E6D82AAB8B0D00E15826 /* Assets.xcassets */,
@@ -161,6 +164,7 @@
 				3AB3E6D42AAB8B0C00E15826 /* MoviesViewController.swift in Sources */,
 				3AB3E6D02AAB8B0C00E15826 /* AppDelegate.swift in Sources */,
 				3AB3E6ED2AAB8FC900E15826 /* Movie.swift in Sources */,
+				3AB3E6EF2AABBA3500E15826 /* MovieCell.swift in Sources */,
 				3AB3E6D22AAB8B0C00E15826 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
