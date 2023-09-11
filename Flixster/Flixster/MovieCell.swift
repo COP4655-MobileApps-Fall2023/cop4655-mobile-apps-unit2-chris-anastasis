@@ -5,8 +5,8 @@
 //  Created by Christopher Anastasis on 9/8/23.
 //
 
-import UIKit
 import Nuke
+import UIKit
 
 class MovieCell: UITableViewCell {
     

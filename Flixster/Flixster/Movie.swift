@@ -24,7 +24,7 @@ extension Movie {
     static var mockMovies: [Movie] = [
         Movie(title: "The Last Voyage of Demeter",
               overview: "The crew of the merchant ship Demeter attempts to survive the ocean voyage from Carpathia to London as they are stalked each night by a merciless presence onboard the ship.",
-              poster_path: URL(string: "/nrtbv6Cew7qC7k9GsYSf5uSmuKh.jpg")!,
+              poster_path: URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=69798bb74f593dd1a295b701c92d7954/nrtbv6Cew7qC7k9GsYSf5uSmuKh.jpg")!,
               popularity: 979.193,
               vote_avergae: 7.3,
               vote_count: 445),
@@ -39,7 +39,20 @@ extension Movie {
               poster_path: URL(string: "/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg")!,
               popularity: 479.14,
               vote_avergae: 7.8,
-              vote_count: 6526)
+              vote_count: 6526),
+        Movie(title: "Oppenheimer",
+              overview: "The story of J. Robert Oppenheimer’s role in the development of the atomic bomb during World War II.",
+              poster_path: URL(string: "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg")!,
+              popularity: 512.44,
+              vote_avergae: 8.3,
+              vote_count: 3242),
+        Movie(title: "Meg 2: The Trench",
+              overview: "An exploratory dive into the deepest depths of the ocean of a daring research team spirals into chaos when a malevolent mining operation threatens their mission and forces them into a high-stakes battle for survival.",
+              poster_path: URL(string: "/drCySAAAvegq1vQRGRqPKN9f00w.jpg")!,
+              popularity: 3949.944,
+              vote_avergae: 7,
+              vote_count: 1497)
+        
     ]
     //Now have access to this mock data of movies
     //Example: let movies = Movies.mockMovies
