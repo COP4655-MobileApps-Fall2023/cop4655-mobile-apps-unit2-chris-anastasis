@@ -5,9 +5,9 @@ cop4655-mobile-apps-unit2-chris-anastasis created by GitHub Classroom
 
 Submitted by: **Christopher Anastasis**
 
-**Flixster** is a movie browsing app that... [TODO] 
+**Flixster** is a movie browsing app that shows movies from the movie database and provides information on each one. 
 
-Time spent: **X** hours spent in total
+Time spent: **30** hours spent in total
 
 ## Required Features
 
@@ -16,8 +16,8 @@ The following **required** functionality is completed:
 - [ ] Users are able to see a customized app icon and launch screen
 - [ ] Your app should work for any screen size and orientation using AutoLayout constraints
   - [ ] Mark here if you will demostrate auto layout implemention as horizontal rotation or different phone size or both, then erase this text
-- [ ] Displays at least 5 different movies in a table view
-- [ ] Can tap into detail view of movie with a full description, backdrop image, and title
+- [X] Displays at least 5 different movies in a table view
+- [X] Can tap into detail view of movie with a full description, backdrop image, and title
  
 The following **optional** features are implemented:
 
@@ -32,12 +32,19 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
+<div>
+    <a href="https://www.loom.com/share/5850605f7bd44cc48147b9c28f371298">
+    </a>
+    <a href="https://www.loom.com/share/5850605f7bd44cc48147b9c28f371298">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/5850605f7bd44cc48147b9c28f371298-with-play.gif">
+    </a>
+  </div>
 
 [Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Challenges with Auto Layout constraints. Need to add them in order to get full fuctionality of app.
 
 ## License
 
